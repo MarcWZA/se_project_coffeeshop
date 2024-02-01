@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+While working on this project, cool ideas popped into my head. Like a moving animation of different ingridents being tossed up for the recipes section or animated images of different cafe meals for the menu section.
