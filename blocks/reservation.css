@@ -4,9 +4,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
   padding: 100px 0 120px;
 }
 
