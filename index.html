@@ -14,7 +14,7 @@
       content="coffee, drinks, bagels, breakfast, study-lounge, socialize"
     />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -42,7 +42,7 @@
               <a class="nav__link" href="#menu">Menu</a>
             </li>
             <li>
-              <a class="nav__link" href="#about">Contacts</a>
+              <a class="nav__link" href="#footer">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -52,7 +52,6 @@
         </h1>
         <p class="header__description">
           Welcome&nbsp;to&nbsp;our&nbsp;study&nbsp;zone!&nbsp;We've&nbsp;got&nbsp;the&nbsp;coffee&nbsp;to&nbsp;energize&nbsp;you
-          <br />
           and the cozy vibes to help you get creative.
         </p>
         <img
@@ -83,9 +82,7 @@
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/AdR5wZVH-H4?si=2O36H3sd0Aau-YzG"
-                frameborder="0"
-                height="0"
-                width="0"
+                title="Japanese iced coffee recipe"
               ></iframe>
               <figcaption class="recipes__video-caption">
                 <span>Japanese iced coffee recipe</span><span>~6 min</span>
@@ -95,9 +92,7 @@
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/QeS30EnYuks?si=CSwLTGiTqBgbqXDc"
-                frameborder="0"
-                height="0"
-                width="0"
+                title="Cold coffee recipe"
               ></iframe>
               <figcaption class="recipes__video-caption">
                 <span>Cold coffee recipe</span> <span>~3 min</span>
@@ -170,69 +165,76 @@
             use biodegradable cups. All teas from our collection are $2/cup.
           </p>
           <div class="menu__cards">
-            <ul class="card">
+            <div class="card">
               <p class="card__title">Filter</p>
-              <li class="card__list-item">
-                Regular (12 oz)<span class="card__list-divider"></span>$1
-              </li>
-              <li class="card__list-item">
-                Large (16 oz)<span class="card__list-divider"></span>$1.25
-              </li>
-              <li class="card__list-item">
-                XL (20 oz)<span class="card__list-divider"></span>$1.5
-              </li>
-              <li class="card__list-item">
-                Party-size (24 oz, decaf)<span
-                  class="card__list-divider"
-                ></span>
-                $1.75
-              </li>
-              <li class="card__list-item">
-                Iced Coffee (16 oz)<span class="card__list-divider"></span>$1.25
-              </li>
-            </ul>
-            <ul class="card">
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Regular (12 oz)<span class="card__list-divider"></span>$1
+                </li>
+                <li class="card__list-item">
+                  Large (16 oz)<span class="card__list-divider"></span>$1.25
+                </li>
+                <li class="card__list-item">
+                  XL (20 oz)<span class="card__list-divider"></span>$1.5
+                </li>
+                <li class="card__list-item">
+                  Party-size (24 oz, decaf)<span
+                    class="card__list-divider"
+                  ></span>
+                  $1.75
+                </li>
+                <li class="card__list-item">
+                  Iced Coffee (16 oz)<span class="card__list-divider"></span
+                  >$1.25
+                </li>
+              </ul>
+            </div>
+            <div class="card">
               <p class="card__title">Expresso</p>
-              <li class="card__list-item">
-                Macchiato<span class="card__list-divider"></span>$2.25
-              </li>
-              <li class="card__list-item">
-                Cortado<span class="card__list-divider"></span>$2.5
-              </li>
-              <li class="card__list-item">
-                Mocha<span class="card__list-divider"></span>$3
-              </li>
-              <li class="card__list-item">
-                Sunrise in the Bay Area (decaf)<span
-                  class="card__list-divider"
-                ></span>
-                $10
-              </li>
-            </ul>
-            <ul class="card">
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Macchiato<span class="card__list-divider"></span>$2.25
+                </li>
+                <li class="card__list-item">
+                  Cortado<span class="card__list-divider"></span>$2.5
+                </li>
+                <li class="card__list-item">
+                  Mocha<span class="card__list-divider"></span>$3
+                </li>
+                <li class="card__list-item">
+                  Sunrise in the Bay Area (decaf)<span
+                    class="card__list-divider"
+                  ></span>
+                  $10
+                </li>
+              </ul>
+            </div>
+            <div class="card">
               <p class="card__title">Baked Goods</p>
-              <li class="card__list-item">
-                Almond Croissant<span class="card__list-divider"></span>$2
-              </li>
-              <li class="card__list-item">
-                Banana Bread<span class="card__list-divider"></span>$1.75
-              </li>
-              <li class="card__list-item">
-                Key Lime Pie<span class="card__list-divider"></span>$3
-              </li>
-              <li class="card__list-item">
-                Blue Velvet Cake<span class="card__list-divider"></span>$3.75
-              </li>
-              <li class="card__list-item">
-                Web Cookie<span class="card__list-divider"></span>$2
-              </li>
-              <li class="card__list-item">
-                Fresh Bug'uette<span class="card__list-divider"></span>$0.25
-              </li>
-            </ul>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Almond Croissant<span class="card__list-divider"></span>$2
+                </li>
+                <li class="card__list-item">
+                  Banana Bread<span class="card__list-divider"></span>$1.75
+                </li>
+                <li class="card__list-item">
+                  Key Lime Pie<span class="card__list-divider"></span>$3
+                </li>
+                <li class="card__list-item">
+                  Blue Velvet Cake<span class="card__list-divider"></span>$3.75
+                </li>
+                <li class="card__list-item">
+                  Web Cookie<span class="card__list-divider"></span>$2
+                </li>
+                <li class="card__list-item">
+                  Fresh Bug'uette<span class="card__list-divider"></span>$0.25
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
-        <section class="about" id="about">
+        <section class="about">
           <h2 class="about__title">About the coffee shop</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -252,7 +254,7 @@
           <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" id="footer">
         <div class="footer__content">
           <img
             class="footer__logo"

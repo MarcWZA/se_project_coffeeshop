@@ -1,6 +1,9 @@
 .card {
-  list-style: none;
   width: 540px;
+}
+
+.card__list {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
